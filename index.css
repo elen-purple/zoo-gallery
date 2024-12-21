@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #dfefdf;
+  padding: 80px 20px;
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.gallery-item {
+}
+
+.gallery-wrapper {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.gallery-image {
+}
+
+.gallery-subtitle {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #0f5f0f;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

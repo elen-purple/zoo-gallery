@@ -67,8 +67,10 @@ list.classList.add("gallery-list");
       "beforeend",
       `
     <li class="gallery-item">
+      <div class="gallery-wrapper">
         <img width="300" class="gallery-image" src="${image}" alt="${name}">
-        <h2 class="gallery-subtitle">${name}</h2>
+      </div>
+      <h2 class="gallery-subtitle">${name}</h2>
     </li>`
     );
   });
